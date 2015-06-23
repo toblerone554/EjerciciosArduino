@@ -1,3 +1,5 @@
+//Ejercicio con un array y con un contador para recorrer el array//
+
 int leds[5]={8,9,10,11,12};
 int tiempo=100;
 int led=0;
