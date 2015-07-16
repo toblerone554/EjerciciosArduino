@@ -1,0 +1,24 @@
+//EJEMPLO DE PUERTOS//
+
+
+void setup() 
+
+{
+   
+  DDRB=B00111111; // SIN LA "B" (BINARIO),SE PUEDE PONER EN DECIMAL(63)//
+  DDRD=B11110000;
+ 
+}
+
+void loop() 
+
+{
+
+  PORTB=B00101010;
+  PORTD=B10100000;
+  delay(10);
+  PORTB=B00010101;
+  PORTD=B01010000;
+  delay(10);
+
+}
